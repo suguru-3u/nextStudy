@@ -9,7 +9,8 @@ export default () =><div>
             margin:-30px 0px;
         }
         p{
-             font-size:16pt;
+             font-size:16p
+             t;
              color:#666;
              margin:0px;
         }
