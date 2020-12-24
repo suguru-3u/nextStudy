@@ -1,4 +1,4 @@
-export default () =><div>
+export default 
     <style jsx>{`
         h1{
             font-size:72pt;
