@@ -1,9 +1,9 @@
-import React,{Conponent} from 'react';
+import React,{Component} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import style from '../static/Style';
 
-class Layout extends Conponent{
+class Layout extends Component{
     render(){
         return(
             <div>

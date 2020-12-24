@@ -1,12 +1,15 @@
 import Link from 'next/link';
-import style from '../static/Style';
+import Layout from '../components/Layout';
 
 export default () =><div>
-   {style}
-    <h1>Next.js</h1>
+   <Layout header="Next" title="Top page">
     <p>Wellcome</p>
     <Link href="/">
-        <a>Go to index page</a>
+        <button>
+        <a>Go to other page</a>
+        </button>
     </Link>
+    <hr />
+    </Layout >
 </div>
 

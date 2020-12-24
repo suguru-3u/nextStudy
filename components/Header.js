@@ -1,6 +1,6 @@
-import React,{Conponent} from 'react';
+import React,{Component} from 'react';
 
-class Header extends Conponent{
+class Header extends Component{
     render(){
         return(
            <header>
