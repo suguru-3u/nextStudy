@@ -7,6 +7,10 @@ class Layout extends Component{
     render(){
         return(
             <div>
+                <Head>
+                    <title>{this.props.title}</title>
+                    <meta charSet='utf-8' />
+                </Head>
                 {style}
                 <Header header={this.props.header} 
                 title={this.props.title} />
