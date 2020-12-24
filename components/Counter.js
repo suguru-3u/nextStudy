@@ -6,7 +6,8 @@ export default class Counter extends Component{
         backgroundColor:"#eef",
         padding:"5px"
     }
-    constructor(proos){
+
+    constructor(props){
         super(props);
         this.state ={
             counter:0,
