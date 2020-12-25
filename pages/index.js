@@ -1,15 +1,14 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import Counter from '../components/Counter';
 
 export default () =><div>
-   <Layout header="Other" title="Other page">
-    <p>This is other page</p>
-    <Link href="/other">
-        <button>
-        <a>Go to other page</a>
-        </button>
-    </Link>
-    <hr />
+   <Layout header="Next" title="Top page">
+        <Counter/>
+        <hr/>
+        <Link href='./other'>
+            <button>go to other</button>
+        </Link>
     </Layout >
 </div>
 
