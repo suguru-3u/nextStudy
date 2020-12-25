@@ -15,3 +15,5 @@ class _App extends App{
         )
     }
 }
+
+export default AppWithReduxStore(_App)
