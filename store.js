@@ -10,7 +10,7 @@ const initial = {
 }
 
 // レデユーサー
-function counterReducer(state = initial,action){
+function calcReducer(state = initial,action){
     switch(action.type){
           // 計算実行
         case'ENTER':
@@ -41,6 +41,6 @@ function counterReducer(state = initial,action){
 
 // iniStore関数
 export function initStore(state = initial){
-    return createStore(counterReducer,state,
+    return createStore(calcReducer,state,
         applyMiddleware(thunkMiddleware))
 }
