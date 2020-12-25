@@ -6,7 +6,7 @@ export default () =>(
    <Layout header="Next" title="Other page">
         <Counter/>
         <hr/>
-        <Link href='./other'>
+        <Link href='/'>
             <button>go to Top</button>
         </Link>
     </Layout >
