@@ -54,5 +54,22 @@ class Calc extends Component{
                 <td>{this.props.number[i]}</td>
             </tr>);
         }
+        return(
+            <div>
+                <p>TPTAL:{this.props.result}</p>
+                <input type="text" style={this.style} value={this.state.input}
+                onChange={this.onChange} onKeyPress={this.onKeyPress} />
+                <button style={this.style} onClick={this.doAction}>ENTER</button>
+                <button style={this.style} onClick={this.reset}>RESET</button>
+                <hr/>
+                <table>
+                    <thbody>{result}</thbody>
+                </table>
+                <p>{this.props.message}</p>
+            </div>
+        );
     }
 }
+
+Calc = connect((state) => state)(Calc);
+export default Calc;
