@@ -3,7 +3,7 @@ import firebase from 'firebase'
 import 'firebase/storage'
 import Router from "next/router";
 
-class Firedelete extends Comment{
+class Firedelete extends Component{
     style={
         fontSize:"12pt",
         padding:"5px 10px"

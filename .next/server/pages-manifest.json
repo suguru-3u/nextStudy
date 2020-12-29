@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/fire_add": "pages/fire_add.js",
-  "/fire": "pages/fire.js"
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/fire": "pages/fire.js",
+  "/fire_del": "pages/fire_del.js"
 }

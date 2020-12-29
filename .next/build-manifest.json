@@ -29,10 +29,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/fire.js"
     ],
-    "/fire_add": [
+    "/fire_del": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/fire_add.js"
+      "static/chunks/pages/fire_del.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []
