@@ -43,6 +43,7 @@ class Firefind extends Component{
 
     // テーブルの内容の作成
     getTableData(){
+        let result = [];
         if(this.state.data == null || this.state.data.length == 0){
             return [<tr key = "0"><th>NO DATA</th></tr>];
         }
