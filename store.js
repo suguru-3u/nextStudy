@@ -3,17 +3,16 @@ import thunkMiddleware from 'redux-thunk';
 import firebase from 'firebase';
 
 // Firebaseの初期化
-let donfig = {
-   
+var config = {
 }
 
-let fireapp;
+var fireapp;
 try {
     firebase.initializeApp(config);
 }catch(error){
     console.log(error.message)
 }
-export default firebase;
+export default fireapp;
 
 // ステート初期化
 const initial = {
