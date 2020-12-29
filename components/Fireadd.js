@@ -86,7 +86,7 @@ class Fireadd extends Component{
                 <table>
                     <tbody>
                         <tr>
-                            <th className={label}>
+                            <th className="label">
                                 name
                             </th>
                             <td>
@@ -96,7 +96,7 @@ class Fireadd extends Component{
                             </td>
                         </tr>
                         <tr>
-                            <th className={label}>
+                            <th cclassName="label">
                                 message
                             </th>
                             <td>
